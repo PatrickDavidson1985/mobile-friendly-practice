@@ -1,4 +1,34 @@
-h1{
-    color: green;
+{
     font-size: xx-large;
 }
+header {background-color: aqua;}
+
+
+
+/*Create media queries for the following breakpoints:
+480px
+768px
+1024px
+Change the background color of the header at each breakpoint
+Push your changes to your daily-challenge branch*/
+
+
+
+   
+    
+
+        @media only screen and (max-width: 1024px) {
+            header {
+              background-color: yellow;
+            }
+
+            @media only screen and (max-width: 768px) {
+                header {
+                  background-color: red;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    header {
+                      background-color: green;
+                    }
+                
